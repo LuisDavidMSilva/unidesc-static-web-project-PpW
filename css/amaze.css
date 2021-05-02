@@ -1,0 +1,95 @@
+header,
+main {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.header {
+    overflow: auto;
+}
+
+.header h1 {
+    float: left;
+    font-size: 3rem;
+}
+
+.header nav {
+    float: right;
+}
+
+.linha {
+    border: 0;
+    display: block;
+    width: 96%;
+    background-color: grey;
+    height: 1px;
+}
+
+footer {
+    background: lavender;
+}
+
+.container div {
+    overflow: auto;
+}
+
+.container div>div {
+    float: left;
+    width: 60%;
+}
+
+.container img {
+    float: right;
+}
+
+.image {
+    height: 17rem;
+}
+
+.footer>div {
+    overflow: auto;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.rodape {
+    margin-top: 10px;
+}
+
+.footer .contato {
+    float: left;
+}
+
+.footer .sitemap {
+    float: right;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    float: left;
+}
+
+footer a:link {
+    color: purple;
+    text-decoration: none;
+}
+
+.sitemap li {
+    width: 50%;
+}
+
+footer .contato {
+    display: inline-block;
+}
+
+.contato>p {
+    line-height: .4;
+}
+
+.amaze {
+    font-style: italic;
+}
